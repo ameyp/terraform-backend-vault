@@ -1,0 +1,17 @@
+{
+  "name": "terraform-backend-vault",
+  "version": "0.1.0",
+  "description": "A Hashicorp Vault HTTP backend for Terraform",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-vault": "^0.9.22",
+    "nodemon": "^2.0.19"
+  }
+}
